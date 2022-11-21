@@ -9,14 +9,6 @@
 - HTML
 - CSS
 
-## Live Demo
-
--- Portfolio [@houdamzari](https://houdamzari.github.io/Portfolio-Website/)
-
-## Outline
-
--- [Presentation](https://www.loom.com/share/3ae2c5104fd346d8b82e4d0824ee1773)
-
 ## Getting Started
 
 Open the file named index.html in your browser to see the project.
