@@ -383,6 +383,117 @@ h1 {
   padding: 20px;
 }
 
+.past-experiences__section-image-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.past-experiences__section-image-wrapper-2 {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+}
+
+.middle-2 {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 200px;
+}
+
+.past-experiences__section-image-text {
+  color: #000;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.past-experiences__section-image-text-2 {
+  color: #000;
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.past-experiences__section-image-heading {
+  color: #000;
+  font-weight: bolder;
+  font-size: 26px;
+  margin: 0;
+  padding: 30px 0;
+}
+
+.footer__section-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  gap: 80px;
+  background-color: #2e2e2e;
+  color: white;
+}
+
+.past-experiences__section-image-wrapper {
+  position: relative;
+  width: 400px;
+  height: 200px;
+}
+
+.past-experiences__section-image-wrapper-2 {
+  position: relative;
+  width: 400px;
+  height: 200px;
+}
+
+.past-experiences__section-image,
+.past-experiences__section-image-2 {
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  width: 400px;
+  height: 200px;
+  gap: 20px;
+}
+
+.past-experiences__section-image:hover,
+.past-experiences__section-image-2:hover {
+  opacity: 0.3;
+  background-color: #e54e3788;
+}
+
+.past-experiences__section-image-wrapper:hover .middle {
+  opacity: 1;
+}
+
+.past-experiences__section-image-wrapper-2:hover .middle-2 {
+  opacity: 1;
+}
+
+.past-experiences__section-images-wrapper {
+  display: flex;
+  gap: 20px;
+  padding: 50px 30px;
+}
+
 @media (min-width: 768px) {
   .hero__section-header {
     /* width: 40%; */
