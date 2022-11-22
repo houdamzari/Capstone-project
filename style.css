@@ -64,6 +64,14 @@ body {
   color: #000;
 }
 
+.nav__section-button {
+  background-color: white;
+  color: #ee523c;
+  border: 4px solid #ee523c;
+  padding: 10px;
+  width: 150px;
+}
+
 .hero__section {
   display: flex;
   flex-direction: column;
@@ -121,8 +129,14 @@ h1 {
 
 .hr {
   width: 50px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   color: red;
+}
+
+.hr-2 {
+  width: 50px;
+  color: red;
+  margin-bottom: 20px;
 }
 
 .main-program__section-header {
@@ -177,7 +191,6 @@ h1 {
 .featured-speakers__section {
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: repeat(auto-fill, 606px);
   grid-template-rows: auto auto auto;
   gap: 20px 20px;
   grid-template-areas:
@@ -329,10 +342,10 @@ h1 {
 }
 
 .about__section-description {
-  background-color: #f7f7f7;
+  background-color: #fff;
   padding: 20px 60px;
   width: 50%;
-  border: 4px solid white;
+  border: 4px solid #f7f7f7;
   text-align: center;
 }
 
@@ -364,6 +377,8 @@ h1 {
 
 .logo__section-header {
   font-size: 30px;
+  margin: 0;
+  padding-top: 40px;
 }
 
 .logo__section-description {
@@ -381,6 +396,7 @@ h1 {
 
 .past-experiences__section-header {
   padding: 20px;
+  margin: 0;
 }
 
 .past-experiences__section-image-wrapper {
@@ -511,5 +527,191 @@ h1 {
   .main-program__section-description {
     width: 200px;
     min-width: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero__section {
+    padding: 20px 10px;
+  }
+
+  .hero__section-header {
+    font-family: 'Cocogoose Pro-trial, sans-serif';
+    font-weight: bold;
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .hero__section-heading {
+    font-family: 'Cocogoose Pro-trial, sans-serif';
+    font-weight: bold;
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .hero__section-description {
+    width: 80%;
+    min-width: 200px;
+  }
+
+  .hero__section-timing {
+    font-size: 26px;
+  }
+
+  .header__section {
+    display: none;
+  }
+
+  .header {
+    display: none;
+  }
+
+  .nav__section-button {
+    display: none;
+  }
+
+  .nav__section-list {
+    display: none;
+  }
+
+  .nav__section-list-item {
+    color: #fff;
+  }
+
+  .nav__section-list.active {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    background-color: #414246;
+    width: 100%;
+    inset: 0;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .main-program__section-list-item {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .featured-speakers__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  .main-program__section-link {
+    display: none;
+  }
+
+  .main-program__section-button {
+    padding: 15px 40px;
+    background-color: #e54f37;
+    border-radius: 0;
+    border: none;
+    color: white;
+    margin: 20px 0;
+  }
+
+  .about__section {
+    padding: 20px 10px;
+  }
+
+  .about__section-header {
+    font-family: 'Cocogoose Pro-trial, sans-serif';
+    font-weight: bold;
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .about__section-elements {
+    display: none;
+  }
+
+  .about__section-description {
+    padding: 5px 10px;
+    width: 90%;
+  }
+
+  .about__section-details {
+    padding: 5px 10px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .logo__section {
+    padding: 0 20px;
+  }
+
+  .logo__section-description {
+    width: 100%;
+  }
+
+  .logo__section-image {
+    width: 75%;
+    margin-bottom: 30px;
+  }
+  .past-experiences__section {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .past-experiences__section-images-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer__section-2 {
+    padding: 20px 30px;
+    gap: 5px;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    padding: 30px;
+    align-self: flex-start;
+  }
+
+  .hamburger-menu.active {
+    position: absolute;
+    right: 0;
+  }
+
+  .hamburger-menu .active:first-child {
+    transform: rotate(50deg) translateY(-3px);
+    transform-origin: left;
+    background-color: #272a31;
+    width: 30px;
+    height: 2px;
+  }
+
+  .hamburger-menu .active:nth-child(2) {
+    transform: rotate(-50deg) translateY(-10px);
+    transform-origin: right;
+    background-color: #272a31;
+    width: 30px;
+    height: 2px;
+  }
+
+  .hamburger-menu .active:last-child {
+    display: none;
+  }
+
+  .line {
+    height: 6px;
+    width: 30px;
+    background-color: #272a31;
   }
 }

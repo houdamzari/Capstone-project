@@ -77,3 +77,16 @@ setTimeout(() => {
   }
   speakersSectionDom.innerHTML = FeaturedSpeakerss;
 }, 1000);
+
+const hamburgerMenu = document.querySelector('.hamburger-menu');
+const nav = document.querySelector('.nav__section-list');
+const line = document.querySelectorAll('.line');
+
+hamburgerMenu.addEventListener('click', (e) => {
+  e.preventDefault();
+  line.forEach((a) => {
+    a.classList.toggle('active');
+  });
+  hamburgerMenu.classList.toggle('active');
+  nav.classList.toggle('active');
+});
