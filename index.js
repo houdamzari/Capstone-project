@@ -51,7 +51,7 @@ const featuredSpeakersArray = [
 let FeaturedSpeakerss = '';
 // eslint-disable-next-line no-undef
 setTimeout(() => {
-  const speakersSectionDom = document.querySelector('featured-speakers__section');
+  const speakersSectionDom = document.querySelector('.featured-speakers__section');
   for (const speaker of featuredSpeakersArray) {
     FeaturedSpeakerss += `
         <div class="featured-speakers__section-grid">

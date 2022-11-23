@@ -8,6 +8,11 @@
 
 - HTML
 - CSS
+- JS
+
+## Live Demo
+
+- [@demo](https://houdamzari.github.io/Capstone-project/index.html)
 
 ## Getting Started
 

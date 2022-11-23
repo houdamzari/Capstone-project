@@ -106,7 +106,7 @@ h1 {
 .hero__section-timing {
   display: flex;
   flex-direction: column;
-  font-family: 'Cocogoose Pro-trial', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 36px;
   font-weight: bolder;
   gap: 5px;
@@ -204,8 +204,9 @@ h1 {
 
 .featured-speakers__section-header {
   text-align: center;
-  font-family: 'Cocogoose Pro-trial', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .featured-speakers__section-grid {
@@ -255,7 +256,7 @@ h1 {
 
 .featured-speakers__section-name {
   margin: 0;
-  font-family: 'Cocogoose Pro-trial', sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 24px;
 }
 
@@ -384,7 +385,7 @@ h1 {
 .logo__section-description {
   width: 600px;
   text-align: center;
-  font-family: 'Cocogoose Pro-trial', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .past-experiences__section {
@@ -496,6 +497,10 @@ h1 {
   .main-program__section-description {
     width: 200px;
     min-width: 150px;
+  }
+
+  .main-program__section-button {
+    display: none;
   }
 }
 
