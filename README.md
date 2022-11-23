@@ -30,10 +30,6 @@ Clone the repositary localy using the command ' git clone '
 
 ## Authors
 
-- -👤 **Houda MZARI**
+- 👤 **Creative Commons license of the design**
 
-- -- GitHub: [@houdamzari](https://github.com/houdamzari)
-
-  -- LinkedIn: [@houdamzari](https://www.linkedin.com/in/houda-mzari-2304401b1/)
-
-  -- Portfolio [@houdamzari](https://houdamzari.github.io/Portfolio-Website/)
+- [Creative Commons license of the design](https://creativecommons.org/licenses/by-nc/4.0/)
