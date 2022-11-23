@@ -14,6 +14,10 @@
 
 - [@demo](https://houdamzari.github.io/Capstone-project/index.html)
 
+## Outline
+
+- [@demo](https://www.loom.com/share/e862a3c1e6244e97bf03320f2fffc5c7)
+
 ## Getting Started
 
 Open the file named index.html in your browser to see the project.

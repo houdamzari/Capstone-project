@@ -198,8 +198,8 @@ h1 {
     '. .'
     '. .';
   justify-content: center;
-  margin: 0 auto; /* horizontally centers the container */
   max-width: none;
+  align-items: center;
 }
 
 .featured-speakers__section-header {
@@ -514,8 +514,8 @@ h1 {
   }
 
   .hero__section-header {
-    font-family: 'Cocogoose Pro-trial', sans-serif;
-    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
     width: 100%;
     font-size: 40px;
   }
@@ -582,6 +582,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+    align-items: center;
   }
 
   .main-program__section-link {
@@ -602,8 +603,8 @@ h1 {
   }
 
   .about__section-header {
-    font-family: 'Cocogoose Pro-trial', sans-serif;
-    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
     width: 100%;
     font-size: 40px;
   }
